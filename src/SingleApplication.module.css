@@ -11,8 +11,10 @@
 
 .cell {
   text-align: left;
-  border-right: 1px solid #eee;
   padding: 0 15px;
+}
+.cell + .cell {
+  border-left: 1px solid #eee;
 }
 
 .cell sub {
