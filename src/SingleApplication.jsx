@@ -7,7 +7,7 @@ const SingleApplication = ({ application }) => {
     <div className={styles.SingleApplication}>
       <div className={styles.cell}>
         <sub>Company</sub>
-        {application.company}
+        <span aria-label='company name'>{application.company}</span>
       </div>
       <div className={styles.cell}>
         <sub>Name</sub>
