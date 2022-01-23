@@ -1,5 +1,20 @@
 .Applications {
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto 2rem;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.buttonBlock {
+  position: relative;
+  overflow: hidden;
+}
+.buttonBlock button.hidden {
+  opacity: 0;
 }
